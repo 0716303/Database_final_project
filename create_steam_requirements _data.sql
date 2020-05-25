@@ -8,7 +8,8 @@ create table steam_requirements_data(
     primary key (steam_appid)
     );
     
-load data local infile './steam_requirements_data.csv' into table steam_requirements_data
+load data local infile './steam_requirements_data.csv' 
+into table steam_requirements_data
 fields terminated by ','
 enclosed by '"'
 lines terminated by '\n'
